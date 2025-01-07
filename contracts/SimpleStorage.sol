@@ -6,6 +6,7 @@ contract SimpleStorage {
 
     function store(uint favoriteNum) public {
         favNum = favoriteNum;
+        favNum = favNum + 1;
     }
 }
 
