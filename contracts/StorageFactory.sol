@@ -10,4 +10,15 @@ contract StorageFactory {
         simpleStorage = new SimpleStorage();
         simpleStorageArray.push(simpleStorage);
     }
+
+    function sfStore(uint _simpleStorageIndex, uint _simpleStorageNum) public {
+        //to interact, we need address & ABI of contract
+        SimpleStorage simpleStorage = simpleStorageArray[_simpleStorageIndex];
+        simpleStorage.store(_simpleStorageNum);
+    }
+
+    function sfGet(uint _simpleStorageIndex) public view returns(uint) {
+        return simpleStorageArray[_simpleStorageIndex].retrieve();
+    }
+
 }
