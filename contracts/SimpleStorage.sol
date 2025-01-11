@@ -18,7 +18,7 @@ contract SimpleStorage {
     uint[] public favNumList;
     People[] public people;
 
-    function store(uint favoriteNum) public {
+    function store(uint favoriteNum) public virtual{
         favNum = favoriteNum;
         favNum = favNum + 1;
     }
