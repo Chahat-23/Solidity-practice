@@ -24,6 +24,25 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -62,11 +81,11 @@
 			]
 		},
 		"contracts/StorageFactory.sol": {
-			"keccak256": "0xf6f52928cf61dbadd0bb0ef0db7df04176f7a062e78e503b377e4624e4a5e0b0",
+			"keccak256": "0x5cdce64734626c6fc80ecbf8b25e2227fffdffab76d9a5b8a6c5272079598ef1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2ab21350714fd77afaff217b999f76f2e3e5c5c141edc638aaa5712ba967dbab",
-				"dweb:/ipfs/QmdvffJUBax6gacEtj12vQwrnS6ya5wWEEMFVmM1jruAE8"
+				"bzz-raw://9039466ab400e77511b9e3f2219345552b5c43f58488510a0c5a0e21dccca8d3",
+				"dweb:/ipfs/QmZYiqMGhp4eurnwhZBaAuu9gHgTAGXUnfDGrqP67b9bAs"
 			]
 		}
 	},
